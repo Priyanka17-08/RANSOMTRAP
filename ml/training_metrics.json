@@ -1,0 +1,29 @@
+{
+  "dataset": "Synthetic educational behavior patterns (independently generated train/test sets)",
+  "samples_total": 3200,
+  "samples_train": 2400,
+  "samples_test": 800,
+  "features": [
+    "file_events_10s",
+    "rename_ratio",
+    "entropy_mean",
+    "extension_changes",
+    "canary_touched"
+  ],
+  "accuracy_percent": 86.62,
+  "precision_percent": 84.16,
+  "recall_percent": 84.41,
+  "f1_percent": 84.29,
+  "confusion_matrix": [
+    [
+      406,
+      54
+    ],
+    [
+      53,
+      287
+    ]
+  ],
+  "evaluation_method": "Train and test datasets generated independently with overlapping feature distributions.",
+  "warning": "Educational synthetic-data metrics only. They do not estimate real-world ransomware detection performance."
+}
